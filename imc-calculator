@@ -1,0 +1,22 @@
+<form id="formulario">
+		<fieldset>
+			<legend>Cálculo do IMC</legend>
+
+			<label for="kilos">Kilos</label> 
+			<input type="text" name="kilos"/> </br>
+
+			<label for="metros">Metros</label> 
+			<input type="text" name="metros"/> </br>
+
+			<label for="cm">Cm</label>
+			<input type="text" name="cm"/> </br> 
+
+			<label for="imc">IMC</label> 
+			<input type="text" name="imc" disabled="disabled"/> </br> 
+ 
+			<label for="sit">Situação: </label> 
+			<input type="text" name="sit" disabled="disabled"/> <br/> 
+
+			<a href="#" onclick="calcularIMC();" id="btn">Calcular</a>
+		</fieldset>
+	</form>
